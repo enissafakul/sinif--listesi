@@ -16,7 +16,7 @@ public:
     string ad;
     string soyad;
     int yas;
-    string sinif;
+    int sinif;
 
     void bilgiGir(int i) {
         cout << "\n" << i + 1 << ". öğrencinin bilgilerini gir:\n";
