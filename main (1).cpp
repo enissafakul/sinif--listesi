@@ -37,16 +37,16 @@ public:
 
 int main() {
     int l;
-    cout << "Kac ogrenci kayit edilecek? ";
+    cout << "Kac kisi kayid olacak? ";
     cin >> l;
 
     if (l <= 0) {
-        cout << "yanlis sayi girdin ." << endl;
+        cout << "sayi yanlis." << endl;
         return 0;
     } else {
-        cout << l << " kayit basliyor.\n";
+        cout << l << " basliyorrr.\n";
     }
-    Ogrenci ogrenciler[100];
+    Ogrenci ogrenciler[80];
     for (int i= 0; i<l; i++) {
         ogrenciler[i].bilgiGir(i);
     }
